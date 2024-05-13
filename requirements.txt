@@ -1,0 +1,4 @@
+tensorflow
+annoy
+streamlit-image-select
+scikit-learn
