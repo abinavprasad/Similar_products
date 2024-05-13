@@ -19,16 +19,16 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 #from models import load_model_from_db
 #from load_feature_vec import load_features_from_db
 #from grabcut import apply_grabcut
-from ultralytics import YOLO
+#from ultralytics import YOLO
 #from shapely.geometry import Polygon
-import cv2
-from Opensearchfn import get_similar_skus
+#import cv2
+#from Opensearchfn import get_similar_skus
 from streamlit_image_select import image_select
 from PIL import Image
-from process_image import process_dataframe
-from feature_extract import extract_features
+#from process_image import process_dataframe
+#from feature_extract import extract_features
 from sklearn.metrics.pairwise import cosine_similarity
-from st_clickable_images import clickable_images
+#from st_clickable_images import clickable_images
 
 def get_image(row):
     try:
