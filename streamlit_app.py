@@ -85,7 +85,7 @@ def if_l3(features,skus,req_l3,l3_option):
 proceed=True
 with st.sidebar:
     # st.[element_name]
-    db = st.selectbox('local or elastic search',('Local','ES'))
+    db = st.selectbox('local or elastic search',('Local',))
     #l1 = st.selectbox('Choose l1 category',('Men', 'Women', 'Kids'))
     l1 = st.selectbox('Choose l1 category',('Men',))
     l2 = st.selectbox('Choose l2 category',('Clothing', 'Shoes', 'Bags'))
